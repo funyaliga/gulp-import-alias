@@ -1,0 +1,33 @@
+{
+  "name": "@funya._./gulp-import-alias",
+  "version": "0.1.3",
+  "description": "",
+  "repository": "funyaliga/gulp-import-alias",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "tslint --format stylish --project .",
+    "start": "tsc -w",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "author": "funya",
+  "license": "ISC",
+  "keywords": [
+    "gulp",
+    "plugin",
+    "wxapp",
+    "npm"
+  ],
+  "dependencies": {
+    "@types/through2": "^2.0.34",
+    "@types/vinyl": "^2.0.2",
+    "through2": "^3.0.1",
+    "vinyl": "^2.2.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "tslint-xo": "^0.15.0",
+    "typescript": "^3.3.3333"
+  }
+}
